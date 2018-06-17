@@ -10,4 +10,9 @@ public class Truck {
 	public String test() {
 		return "truck";
 	}
+	
+	@GetMapping("/minitruck")
+	public String minitruck() {
+		return "minitruck";
+	}
 }
