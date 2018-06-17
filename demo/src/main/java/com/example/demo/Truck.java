@@ -25,4 +25,19 @@ public class Truck {
 	public String megatruck() {
 		return "megatruck";
 	}
+	
+	@GetMapping("/minicar")
+	public String minicar() {
+		return "minicar";
+	}
+	
+	@GetMapping("/microcar")
+	public String microcar() {
+		return "microcar";
+	}
+	
+	@GetMapping("/megacar")
+	public String megacar() {
+		return "megacar";
+	}
 }
