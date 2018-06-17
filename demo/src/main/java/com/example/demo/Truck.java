@@ -13,16 +13,16 @@ public class Truck {
 	
 	@GetMapping("/minitruck")
 	public String minitruck() {
-		return "MINITRUCK";
+		return "minitruck";
 	}
 	
 	@GetMapping("/microtruck")
 	public String microtruck() {
-		return "MICROTRUCK";
+		return "microtruck";
 	}
 	
 	@GetMapping("/megatruck")
 	public String megatruck() {
-		return "MEGATRUCK";
+		return "megatruck";
 	}
 }
