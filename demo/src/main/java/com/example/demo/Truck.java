@@ -15,4 +15,9 @@ public class Truck {
 	public String minitruck() {
 		return "minitruck";
 	}
+	
+	@GetMapping("/microtruck")
+	public String microtruck() {
+		return "minitruck";
+	}
 }
